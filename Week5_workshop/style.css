@@ -1,3 +1,29 @@
+/*Responsiveness*/
+  
+  @media only screen and (max-width: 768px) {
+    /* For desktop: */
+    .first_main {
+        width: 50%;
+        font-size: 20px;
+
+    }
+    .second_main {
+        width: 50%;
+        font-size: 20px;
+    }
+    .Third_main {
+        width: 50%;
+        font-size: 20px;
+    }
+    .four_main {
+        width: 50%;
+        font-size: 20px;
+    }
+    .last_main {
+        width: 50%;
+        font-size: 20px;
+    }
+  }
 body{
     margin: 0;
     padding:0 ;
@@ -94,6 +120,7 @@ input[type="button"]:hover{
 #img1{
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: -30px;
     padding: 10px;
     width: 1300px;
     height: 300px;
