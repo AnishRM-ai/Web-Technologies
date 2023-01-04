@@ -1,0 +1,297 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding:0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/** First box**/
+
+.first_main{
+    color: whitesmoke;
+    max-width: 100%;
+    height: 795px;
+    background-color: rgb(42, 45, 42);
+    display: flex;
+}
+
+.Container{
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+    max-width: 55%;
+    height: 650px;
+    padding: 10px 10px;
+}
+
+h1{
+    margin-top: 70px;
+    font-size: 58px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#first_para{
+    padding: 10px 10px;
+    margin-top: 150px;
+    font-size: 28px;
+}
+#img0{
+   max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+input[type="button"]{
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: orange;
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.02);
+    transition-duration: .5s;
+   background-color: #8B4000;
+}
+
+/* Second Sections*/
+
+.second_main{
+    height: 790px;
+    width: 100%;
+    background-color:rgb(110, 97, 100);
+}
+
+.heading2{
+    font-size: 48px;
+    color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    padding: 10px 5px;
+}
+.contentss{
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.para2{
+   margin-top: 76px;
+   font-size: 28px;
+    color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    
+}
+
+#img1{
+    margin-left: 100px;
+    width: 1300px;
+    height: 300px;
+    object-fit: cover;
+}
+/* Third section*/  /* Third section*/  
+/* Third section*/  /* Third section*/  
+
+.Third_main{
+    padding-top: 10px;
+    height: 790px;
+    width: 100%;
+    background-color:#172038;
+    color: whitesmoke;
+}
+
+#h11{
+    text-align: center;
+}
+.Card_box{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    height: 500px;
+    width: 400px;
+
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.card:hover{
+    box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+
+#card_img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.card_detail{
+    text-align: center;
+
+}
+#card_parag{
+    font-size: 22px;
+}
+/*Section four*/    /*Section four*/    /*Section four*/
+
+.four_main{
+    height: 790px;
+    width: 100%;
+    background-color:rgb(110, 97, 100);
+    display: flex;
+    color: whitesmoke;
+}
+h1{
+    padding: 10px;
+}
+#img_four{
+    height: 790px;
+    width: 55%;
+    object-fit: cover;
+}
+.list{
+    width: 40%;
+}
+ul {
+    margin-top: 250px;
+    margin-left: 50px;
+
+}
+li{
+    list-style-type: none;
+    font-size: 27px;
+    padding: 10px;
+}
+
+/*Section last*/    /*Section last*/    /*Section last*/
+.last_main{
+    color: whitesmoke;
+    width: 100%;
+    height: 795px;
+    background-color: rgb(42, 45, 42);
+    display: flex;
+}
+
+.Container{
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 55%;
+    height: 650px;
+    padding: 10px 10px;
+}
+
+h1{
+    margin-top: 80px;
+    font-size: 58px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#first_para1{
+    padding: 10px 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+#img0{
+    width: 790px;
+    height: 795px;
+    object-fit: cover;
+}
+
+input[type="button"]{
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: orange;
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    transition: ease-in;
+    transition-duration: .5s;
+   background-color: #8B4000;
+}
+
+/*Responsiveness*/
+
+@media only screen and (max-width: 768px) {
+    /* For screens with a width of 768 pixels or less: */
+   body{
+    box-sizing: border-box;
+   }
+    .first_main {
+      font-size: 12px;
+      flex-direction:column ;
+      max-width: 768px;
+    }
+    .Container{
+        font-size: 12px;
+        max-width: 600px;
+    }
+    input[type="button"]{
+        font-size: small;
+        justify-items: center;
+    }
+    #img0{
+        height: auto;
+        max-width: 100%;
+        overflow: hidden;
+
+    }
+    .second_main{
+        max-width: 100%;
+        height: auto;
+        display: flex;
+        justify-items: center;
+    }
+
+    #img1{
+        height: auto;
+        max-width: 100%;
+    }
+
+    .third_main {
+        font-size: 12px;
+        height: auto;
+        max-width: 768px;
+      }
+
+
+      .four_main {
+        font-size: 12px;
+        flex-direction:column ;
+        max-width: 768px;
+      }
+
+
+      .last_main {
+        font-size: 12px;
+        flex-direction:column ;
+        max-width: 768px;
+      }
+}
